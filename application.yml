@@ -1,0 +1,6 @@
+name=Hola Mundo
+eureka:
+    url: http://localhost
+    port: :8010
+    path: /eureka/
+
