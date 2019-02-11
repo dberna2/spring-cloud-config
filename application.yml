@@ -3,7 +3,7 @@ name: Hola Mundo
 eureka:
   client:
     service-url:
-      defaultZone: http://127.0.0.1:8010/eureka
+      defaultZone: http://localhost/eureka
     healthcheck:
        enabled: true
   instance:
