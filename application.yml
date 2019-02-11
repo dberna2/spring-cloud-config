@@ -1,6 +1,11 @@
 name: Hola Mundo
+
 eureka:
-    hostName: localhost
-    port: 8010
-    path: eureka
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:8010/eureka
+    healthcheck:
+       enabled: true
+  instance:
+      preferIpAddress: true
 
